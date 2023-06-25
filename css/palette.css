@@ -1,6 +1,15 @@
 .my-5 {
     background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
 }
 .me-2 {
     margin: 0 2vw;
+}
+.d-flex {
+    margin-bottom: 1.5rem;
+} 
+.palette_images{
+    width: auto;
+    height: 100px;
 }
