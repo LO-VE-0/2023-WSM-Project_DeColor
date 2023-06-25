@@ -1,4 +1,4 @@
-# DeColor
+# .DeColor
 
 <br />
 
@@ -17,17 +17,15 @@
 ![image](https://github.com/LO-VE-0/2023-WSM-Project_DeColor/assets/88700243/f008fa86-9c91-45d4-9af9-5e7843ebdb00)
 ---
 
-#### 
+#### 색약 테스트
 ---
-![image](https://user-images.githubusercontent.com/86298664/176178436-ad9f230e-e4b3-4a7e-b6ec-3d7bcb9296f3.png)  
+![image](https://github.com/LO-VE-0/2023-WSM-Project_DeColor/assets/88700243/e0fea143-d92c-43bd-b84e-4c0f874b880c)  
 
-### [앨범 선택 페이지 📁](https://github.com/olsi10/StudentMemories/wiki/%EC%95%A8%EB%B2%94-%EC%84%A0%ED%83%9D-%ED%8E%98%EC%9D%B4%EC%A7%80-%F0%9F%93%81)
 #### 컬러 팔레트
 ---
 ![image](https://github.com/LO-VE-0/2023-WSM-Project_DeColor/assets/88700243/69c82a71-17d3-4510-b79f-aa1540d52e06)
 
 
-### [앨범 속 사진 페이지 🖼](https://github.com/olsi10/StudentMemories/wiki/%EC%95%A8%EB%B2%94-%EC%86%8D-%EC%82%AC%EC%A7%84-%ED%8E%98%EC%9D%B4%EC%A7%80-%F0%9F%96%BC)
-#### 전체 화면
+#### 커뮤니티
 ---
 ![image](https://user-images.githubusercontent.com/86298664/176343617-f383fef1-8417-43da-b44f-af960a028cbd.png)

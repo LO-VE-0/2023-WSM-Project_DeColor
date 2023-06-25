@@ -2,7 +2,8 @@
     height: 68vh;
     border: 1px solid black;
     border-radius: 14px;
-    background-image: url();
+    color: #fff;
+    background-size: cover;
 }
 
 /* button */
