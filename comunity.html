@@ -7,7 +7,7 @@
     <title>DeColor</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <link href="css/styles.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="css/comunity.css">
 
 </head>
 <body>
@@ -33,19 +33,22 @@
         <!-- Heading Row-->
         <div class="row gx-4 gx-lg-5 align-items-center my-5">
             <div class="text-center">
-                <button class="w-btn-neon2" type="button">
-                    Get Start!
-                </button>
+                <div class="box">
+                    <img src="./Image/user.png" alt="..." class="profile">
                 </div>
+                <textarea name="" id="">내용을 입력해주세요.</textarea>
+            </div>
+            <div>
+                <button onclick="not_login()">글 올리기</button>
+            </div>
         </div>
+        <hr>
     </div>
     <!-- Footer-->
     <footer class="py-5 bg-dark">
         <div class="container px-4 px-lg-5">
             <p class="text-center text-white">
-                <span><a href="#" target="_blank">Github</a> | </span><br>
-                <span>e-mail: w2236@e-mirim.hs.kr</span><br>
-                <span>phone: 010-9161-0601</span>
+                
             </p>
         </div>
     </footer>
@@ -59,4 +62,9 @@
 </html>
 
 </body>
+<script>
+    function not_login() {
+        alert("로그인 후 이용 가능합니다.");
+    }
+</script>
 </html>
