@@ -28,4 +28,4 @@
 
 #### 커뮤니티
 ---
-![image](https://user-images.githubusercontent.com/86298664/176343617-f383fef1-8417-43da-b44f-af960a028cbd.png)
+![image](https://github.com/LO-VE-0/2023-WSM-Project_DeColor/assets/88700243/df078771-d7c2-414b-b45c-b8296e3eadb7)

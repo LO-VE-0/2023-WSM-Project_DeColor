@@ -10,13 +10,14 @@ img {
 }
 textarea {
     width: 60%;
-    height: 200px;
+    min-height: 100px;
     font-size: 20px;
 }
-.readuser {
+#readuser {
+    box-sizing: border-box;
     width: 50%;
-    height: 200px;
     font-size: 15px;
+    vertical-align: top;
 }
 .box {
     display: inline-block;
