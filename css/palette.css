@@ -17,7 +17,10 @@
     position: relative;
     display: flex;
 }
-
+#createpalette {
+    text-align: right; 
+    margin: 9vh 13vw -5vh 0;
+}
 .palette_images:hover {
     filter: brightness(0.3);
 }

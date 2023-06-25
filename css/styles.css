@@ -398,6 +398,7 @@ select:disabled {
 
 textarea {
   resize: none;
+  padding: 10px 20px;
 }
 
 fieldset {
