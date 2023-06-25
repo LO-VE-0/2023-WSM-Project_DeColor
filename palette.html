@@ -10,7 +10,12 @@
     <link href="css/styles.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/palette.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <script src="js/test.js"></script>
+
+    <!-- light box 불러오기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/lightBox.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+
 </head>
 
 <body>
@@ -27,7 +32,7 @@
                     <li class="nav-item"><a class="nav-link" href="test.html">색약 테스트</a></li>
                     <li class="nav-item"><a class="nav-link active" aria-current="page" href="palette.html">컬러 팔레트</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="#!">커뮤니티</a></li>
+                    <li class="nav-item"><a class="nav-link" href="comunity.html">커뮤니티</a></li>
                     <li class="nav-item"><a class="nav-link btn btn-outline-secondary" href="#!">Log in</a></li>
                     <li class="nav-item"><a class="nav-link btn btn-outline-secondary" href="#!">Sign up</a></li>
                 </ul>
@@ -59,53 +64,70 @@
                 <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off" onchange="makeFilter(this);">
                 <label class="btn btn-outline-dark" for="btncheck3">청색약</label>
             </div>
-        </div>
-        <div class="row gx-4 gx-lg-5">
-            <div class="col-md-4 mb-5">
-                <div class="card h-100">
-                    <img class="palette_images" src="./Image/palette_images/img1.png" alt="...">
-                    <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
+            <div class="row gx-4 gx-lg-5 me-3">
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <a href="./Image/palette_images/img1.png" data-lightbox="example-set">
+                            <img class="palette_images" src="./Image/palette_images/img1.png" alt="...">
+                        </a>
+                        <button class="info_btn">More Info</button>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4 mb-5">
-                <div class="card h-100">
-                    <img class="palette_images" src="./Image/palette_images/img2.png" alt="...">
-                    <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <a href="./Image/palette_images/img2.png" data-lightbox="example-set">
+                            <img class="palette_images" src="./Image/palette_images/img2.png" alt="...">
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4 mb-5">
-                <div class="card h-100">
-                    <img class="palette_images" src="./Image/palette_images/img3.png" alt="...">
-                    <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <a href="./Image/palette_images/img3.png" data-lightbox="example-set">
+                            <img class="palette_images" src="./Image/palette_images/img3.png" alt="...">
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4 mb-5">
-                <div class="card h-100">
-                    <img class="palette_images" src="./Image/palette_images/img4.png" alt="...">
-                    <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <a href="./Image/palette_images/img4.png" data-lightbox="example-set">
+                            <img class="palette_images" src="./Image/palette_images/img4.png" alt="...">
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4 mb-5">
-                <div class="card h-100">
-                    <img class="palette_images" src="./Image/palette_images/img5.png" alt="...">
-                    <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <a href="./Image/palette_images/img5.png" data-lightbox="example-set">
+
+                            <img class="palette_images" src="./Image/palette_images/img5.png" alt="...">
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4 mb-5">
-                <div class="card h-100">
-                    <img class="palette_images" src="./Image/palette_images/img6.png" alt="...">
-                    <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <a href="./Image/palette_images/img6.png" data-lightbox="example-set">
+                            <img class="palette_images" src="./Image/palette_images/img6.png" alt="...">
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4 mb-5">
-                <div class="card h-100">
-                    <img class="palette_images" src="./Image/palette_images/img7.png" alt="...">
-                    <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <a href="./Image/palette_images/img7.png" data-lightbox="example-set">
+                            <img class="palette_images" src="./Image/palette_images/img7.png" alt="...">
+                        </a>
+                    </div>
                 </div>
+
             </div>
-            
         </div>
     </div>
+
+    <template>
+        <div>
+            <img :src="image" @click="showImage">
+        </div>
+
+        <vue-easy-lightbox :visible="visibleRef" :imgs="imgsRef" :index="indexRef" @hide="onHide"></vue-easy-lightbox>
+    </template>
 
 
 
@@ -125,30 +147,18 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
-    <script>
-
-        var arr = new Array(); //필터 내용을 저장하는 배열
-
-        //필터 내용을 저장하는 function
-        function makeFilter(target) {
-
-            var value = target.value; //check value
-            var confirmCheck = target.checked; //check여부 확인
-
-            if (confirmCheck == true) {
-                arr.push(value); // check value filter 배열에 입력
-
-
-            } else {
-                arr.splice(arr.indexOf(value), 1); // check value filter 배열내용 삭제       
-            }
-
-        }
-
-    </script>
+    <script src="js/palette_Search.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
 </body>
+<script>
+    lightbox.option({
+    resizeDuration: 200,
+    wrapAround: true,
+    disableScrolling: false,
+    fitImagesInViewport:false
+  })
+  </script>
 
 </html>

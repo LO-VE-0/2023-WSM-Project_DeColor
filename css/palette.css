@@ -10,6 +10,26 @@
     margin-bottom: 1.5rem;
 } 
 .palette_images{
-    width: auto;
+    width: 100%;
     height: 100px;
+    filter: brightness(1);
+    transition: 0.5s;
+    position: relative;
+    display: flex;
+}
+
+.palette_images:hover {
+    filter: brightness(0.3);
+}
+.me-3 {
+    margin-top: 7vh;
+}
+.info_btn {
+    visibility: hidden;
+    top: 35%;
+    left: 30%;
+    position: absolute;
+}
+.palette_images:hover .info_btn::after {
+    visibility: visible;
 }
