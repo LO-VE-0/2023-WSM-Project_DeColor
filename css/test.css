@@ -2,6 +2,7 @@
     height: 68vh;
     border: 1px solid black;
     border-radius: 14px;
+    background-image: url();
 }
 
 /* button */
@@ -54,4 +55,9 @@
     left: 50%;
     transform: translate(-50%, -50%);
     animation: ring 1.5s infinite;
+}
+
+.card-text {
+    margin-bottom: -20vh;
+    font-size: 2.5rem;
 }
